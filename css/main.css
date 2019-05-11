@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
+
+:root {
+  --mainPink: #ef7998;
+  --mainYellow: #fad65f;
+  --mainWhite: #fff;
+  --mainBlack: #000;
+  --yellowTrans: rgba(249, 228, 148, 0.5);
+  --mainGrey: rgb(238, 238, 238);
+}
+
+body {
+  font-family: "Kaushan Script", cursive;
+  background: var(--mainWhite);
+  color: var(--mainBlack);
+}
+
+/* NAVBAR */
+.navbar img {
+  height: 70px;
+}
+.navbar-toggler {
+  outline: none !important;
+}
+
+.toggler-icon {
+  font-size: 2.5rem; /* 1rem = 16px rem is + responsive */
+  color: var(--mainPink);
+}
+.nav-link {
+  color: var(--mainPink);
+  font-size: 1.5rem;
+  transition: 1s color ease-in-out;
+  border-bottom: 4px solid transparent;
+}
+.nav-link:hover {
+  color: var(--mainYellow);
+  border-bottom-color: var(--mainPink);
+}
+.cart-info_icon {
+  color: var(--mainBlack);
+  cursor: pointer;
+}
+.cart-info:hover .cart-info_icon {
+  color: var(--mainWhite);
+}
+.cart-info {
+  border: 0.1rem solid var(--mainBlack);
+  color: var(--mainBlack);
+  border-radius: 0.25rem;
+  padding: 0.4rem 0.6rem;
+  cursor: pointer;
+}
+.cart-info:hover {
+  background: var(--mainPink);
+  border-color: var(--mainPink);
+  color: var(--mainWhite);
+}
