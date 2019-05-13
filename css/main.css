@@ -202,3 +202,35 @@ body {
 .footer-icons {
   margin-top: 4rem;
 }
+
+/* CART */
+.cart {
+  position: absolute;
+  min-height: 10rem;
+  background: rgba(255, 255, 255, 0.5);
+  top: 0;
+  right: 0;
+  transition: all 0.3 ease-in-out;
+  width: 0;
+  overflow: hidden;
+}
+.show-cart {
+  width: 18rem;
+  padding: 2rem 1.5rem;
+  transform: rotate(-360deg);
+}
+cart-item {
+  transition: all 2s ease-in-out;
+}
+.cart-item-remove {
+  color: var(--mainPink);
+  transition: all 1s ease-in-out;
+}
+.cart-item-remove:hover {
+  transform: scale(1.1);
+  color: var(--mainBlack);
+}
+
+.cart-item-price {
+  font-size: 0.8rem;
+}
