@@ -165,3 +165,40 @@ body {
 .store-item-icon:hover {
   color: var(--mainPink);
 }
+
+/* SERVICES */
+.services {
+  color: var(--mainWhite);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../img/services.jpg) center/cover fixed no-repeat;
+}
+.service-title {
+  letter-spacing: 0.5rem;
+}
+.service-text {
+  word-spacing: 0.5rem;
+}
+
+/* ORDER CAKE */
+.cakes .img-fluid {
+  height: 200px;
+}
+
+/* FOOTER */
+.footer-title {
+  background: var(--mainBlack);
+}
+.footer-contact {
+  background: var(--mainGrey);
+}
+.footer-icon {
+  font-size: 1.5rem;
+  color: var(--mainWhite);
+  transition: all 0.4 ease-in-out;
+}
+.footer-icon:hover {
+  color: var(--mainPink);
+}
+.footer-icons {
+  margin-top: 4rem;
+}
